@@ -1,6 +1,61 @@
-.test {
-    font-family: 'Roboto';
-    background-color: #1F2937;
+body{
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
+    border: solid purple;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+
+}
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    max-height: 200px;
+    display: flex;
+    margin-left: auto;
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex; 
+    align-items: center;
+
+}
+
+.holder {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.test {
+    display: flex;
 }
